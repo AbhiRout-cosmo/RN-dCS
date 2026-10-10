@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "rn-dcs-isospectrality: isospectrality breaking of Reissner-Nordstrom quasinormal modes in dynamical Chern-Simons gravity"
+authors:
+  - family-names: Rout
+    given-names: Abhishek
+    affiliation: "Department of Physics and Astronomy, University of South Carolina"
+license: MIT
+date-released: 2026-10-10
+preferred-citation:
+  type: article
+  title: "Isospectrality breaking in the axial quasinormal modes of Reissner-Nordstrom black holes in dynamical Chern-Simons gravity"
+  authors:
+    - family-names: Rout
+      given-names: Abhishek
+  year: 2026
