@@ -3,13 +3,14 @@
 Code and data accompanying
 
 > A. Rout, *Isospectrality breaking in the axial quasinormal modes of Reissner–Nordström black holes in dynamical Chern–Simons gravity* (2026).
-> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23283164.svg)](https://doi.org/10.5281/zenodo.23283164)
+
 
 The repository contains:
 
 - the computer-algebra derivations of the axial couplings: the C-tensor, the linearized Pontryagin density, the reduction to master variables, and the consistency checks;
 - the spectral solvers used for the quasinormal-mode (QNM) shifts;
 - one script per numerical result in the paper, together with the data behind the tables and figures.
+- > [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23283164.svg)](https://doi.org/10.5281/zenodo.23283164)
 
 ---
 
