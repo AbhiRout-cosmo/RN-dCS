@@ -18,13 +18,13 @@ A dynamical pseudoscalar coupled to the Pontryagin density, $`\tfrac{\alpha}{4}\
 
 The axial system closed here is
 
-```math
+$$
 \begin{aligned}
-[\partial_{r_{\ast}}^2+\omega^2-V_{\mathrm{RW}}]\Psi &= C_Q\Psi_e + C_{\mathrm{dCS}}\Theta,\\
-[\partial_{r_{\ast}}^2+\omega^2-V_{\mathrm{EM}}]\Psi_e &= C_Q\Psi + \chi\,C_{\mathrm{dCS}}\Theta,\\
+[\partial_{r_{\ast}}^2+\omega^2-V_{\mathrm{RW}}]\Psi &= C_Q\Psi_e + C_{\mathrm{dCS}}\Theta, \\
+[\partial_{r_{\ast}}^2+\omega^2-V_{\mathrm{EM}}]\Psi_e &= C_Q\Psi + \chi\,C_{\mathrm{dCS}}\Theta, \\
 [\partial_{r_{\ast}}^2+\omega^2-V_\Theta]\Theta &= C_{\Theta g}(\Psi+\chi\Psi_e),
 \end{aligned}
-```
+$$
 
 with
 
