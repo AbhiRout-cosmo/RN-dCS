@@ -1,0 +1,23 @@
+{
+  "title": "RN-dCS: Code and data for isospectrality breaking of Reissner–Nordström quasinormal modes in dynamical Chern–Simons gravity",
+  "upload_type": "software",
+  "version": "1.1.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Rout, Abhishek",
+      "affiliation": "Department of Physics and Astronomy, University of South Carolina"
+    }
+  ],
+  "description": "Symbolic derivations (SymPy), spectral and shooting solvers, scripts and data reproducing all numerical results of A. Rout, \"Isospectrality breaking in the axial quasinormal modes of Reissner–Nordström black holes in dynamical Chern–Simons gravity\" (2026): coupled axial {Ψ, Ψ_e, Θ} system, exterior-complex-scaling QNM shifts, branch-resolved eikonal analysis, the exact electromagnetic-led/pseudoscalar degeneracy at Q_c = 2M√(L+1)/(L+2) and its O(√ζ) splitting, near-extremal zero-damping modes, convergence and independent shooting checks, and an independent first-principles audit of the field equations. v1.1.0 accompanies the second revision.",
+  "keywords": [
+    "quasinormal modes",
+    "dynamical Chern-Simons gravity",
+    "Reissner-Nordström",
+    "isospectrality",
+    "black hole perturbation theory",
+    "exterior complex scaling",
+    "zero-damping modes",
+    "avoided crossing"
+  ]
+}
