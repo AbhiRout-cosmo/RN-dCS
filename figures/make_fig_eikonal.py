@@ -14,7 +14,7 @@ for Qk,mk in (('0.0','o'),('0.3','s'),('0.6','^')):
     L=[r[0] for r in c[Qk] if r[0]<12]+[r[0] for r in D[Qk]]
     R=[r[3]/asym(Q,r[0]) for r in c[Qk] if r[0]<12]+[complex(*r[2]).real/asym(Q,r[0]) for r in D[Qk]]
     x=np.array(L,float); y=np.array(R); out[Qk]=list(zip(L,R))
-    lab='$Q=0$: exact / $(-2.25\\,l^3)$' if Q==0 else f'$Q={Q}M$: exact / ($l^2/Q$ law)'
+    lab='$Q=0$: exact / $(l^3)$' if Q==0 else f'$Q={Q}M$: exact / ($l^2/Q$ law)'
     ax.plot(1/x,y,mk,ms=3.5,label=lab)
     sel=x>=12; p=np.polyfit(1/x[sel],y[sel],1); xx=np.linspace(0,0.1,20); ax.plot(xx,np.polyval(p,xx),'k-',lw=0.5)
     print(Qk,'ratio -> %.4f as 1/l->0 ; slope %.3f'%(p[1],p[0]))
